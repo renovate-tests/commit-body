@@ -7,6 +7,6 @@
   "renovate": {
     "extends": ["config:base"],
     "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
-    "commitBody": "Signed-Off-By {{gitAuthor}}"
+    "commitBody": "Signed-off-by: {{{gitAuthor}}}"
   }
 }
