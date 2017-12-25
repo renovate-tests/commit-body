@@ -5,6 +5,8 @@
     "config": "1.0.0"
   },
   "renovate": {
-    "extends": ["config:base", ":pinSkipCi"]
+    "extends": ["config:base"],
+    "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+    "commitBody": "Signed-Off-By {{gitAuthor}}"
   }
 }
