@@ -1,0 +1,11 @@
+{
+  "name": "commit-body",
+  "version": "0.0.1",
+  "dependencies": {
+    "config": "1.0.0"
+  },
+  "renovate": {
+    "extends": ["config:base"],
+    "commitMessageBody": "foo"
+  }
+}
